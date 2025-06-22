@@ -7,4 +7,4 @@ A collection of simple and useful Python scripts for various development tasks.
 You can quickly scaffold a new Python project using [`uv`](https://github.com/astral-sh/uv) by running the following command in your terminal:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/MattMcL4475/python/refs/heads/main/create-uv-project.py) myproject
+bash <(curl -s https://raw.githubusercontent.com/MattMcL4475/python/refs/heads/main/create-uv-project.sh) myproject
