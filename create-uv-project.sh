@@ -22,10 +22,7 @@ cat > pyproject.toml <<EOF
 name = "$PROJECT"
 version = "0.1.0"
 requires-python = ">=3.8"
-dependencies = [
-  "torch",
-  "numpy"
-]
+dependencies = []
 EOF
 
 echo "Step 4/6: Creating and activating virtual environment"
@@ -42,10 +39,7 @@ cat > .vscode/settings.json <<EOF
 EOF
 
 cat > test.py <<EOF
-import torch
-import numpy as np
-print("Torch:", torch.tensor([1]) + 1)
-print("Numpy:", np.array([1]) + 1)
+print("✅ Success.")
 EOF
 
 echo "✅ All steps completed. Opening project in VSCode..."
